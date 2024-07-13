@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
         glue = "com.com.demo.stepdefinitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-
+//para la prueba
 public class SerenityValidacionUnoRunners {
 }
