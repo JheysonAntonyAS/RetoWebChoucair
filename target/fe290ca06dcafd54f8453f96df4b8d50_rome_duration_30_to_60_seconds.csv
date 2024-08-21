@@ -1,5 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Validar el numero de productos","Comparar el numero de productos","SUCCESS","2024-07-12T20:02:25.5115394-05:00[America/Lima]","0.0","39.2"
-"Validar total de precios","Comparar el total de precios","SUCCESS","2024-07-12T20:03:05.3070282-05:00[America/Lima]","0.0","40.25"
-"Validar cantidad de productos","Comparar la cantidad de productos","SUCCESS","2024-07-12T20:03:45.6859343-05:00[America/Lima]","0.0","58.87"
-"Validar nombres de productos","El nombre de los productos agregados deberá ser igual que en el carro","SUCCESS","2024-07-12T20:40:37.3917748-05:00[America/Lima]","0.0","51.89"
+"Validar cantidad de productos","Comparar la cantidad de productos","SUCCESS","2024-08-20T21:32:05.7534453-05:00[America/Lima]","0.0","50.09"

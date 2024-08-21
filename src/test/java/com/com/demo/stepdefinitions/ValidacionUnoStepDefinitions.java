@@ -37,15 +37,12 @@ public class ValidacionUnoStepDefinitions {
         theActorInTheSpotlight().attemptsTo(
 
                 JavaScriptClick.on(PageHome.MENU),
-                // Mueve el cursor al menú para mostrar las opciones
-
                 // Espera un momento para asegurar que las opciones se han cargado
                 WaitUntil.the(PageHome.CATEGORIA, isVisible()).forNoMoreThan(5).seconds(),
+                // Mueve el cursor al menú para mostrar las opciones
                 HoverOver.element(PageHome.CATEGORIA),
-
                 // Espera un momento para asegurar que las subcategorías se han cargado
                 WaitUntil.the(PageHome.SUBCATEGORIA, isVisible()).forNoMoreThan(5).seconds(),
-
                 // Haz clic en la subcategoría
                 JavaScriptClick.on(PageHome.SUBCATEGORIA)
         );
@@ -74,10 +71,8 @@ public class ValidacionUnoStepDefinitions {
         double precioProductoDouble = Double.parseDouble(precioLimpio);
 
         int numeroDeClicks = GenerarCantidadProductos.generarNumeroAleatorioDeClicks();
-        // Genera el número aleatorio de clics
         for (int i = 0; i < numeroDeClicks; i++) {
             theActorInTheSpotlight().attemptsTo(
-                    // Espera hasta que el producto sea visible
                     JavaScriptClick.on(PageAudifonos.SUMAR));
         }
 
